@@ -11,9 +11,10 @@ a=1
 for x in range(1,N+1):
     a *= x
 if(N<0):
- print("Factorial of 5 is Not Defined")
+ print("Factorial of" ,abs(N), "is Not Defined")
 else:
    print("Factorial of", N ,"is",a)
+
 
 
 
