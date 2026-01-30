@@ -10,9 +10,10 @@ N = int(input("Enter Number: "))
 a=1
 for x in range(1,N+1):
     a *= x
-print("Factorial of", N ,"is",a)
-
-
+if(N<0):
+ print("Factorial of", N ,"is Not Defined")
+else:
+   print("Factorial of", N ,"is",a)
 
 
 
